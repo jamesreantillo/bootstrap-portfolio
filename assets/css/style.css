@@ -2,7 +2,18 @@ body {
   background-image: url('../images/hypnotize.png');
 }
 .navbar-brand {
-  font-size: 30px
+  font-size: 30px;
+  background-color: #4aaaa5;
+}
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-default {
+    background-color: #fff;
+    border-bottom: 2px solid #dddddd;
+}
+.panel-default>.panel-heading {
+    background-color: #fff;
 }
 .navbar-right {
   font-size: 15px
@@ -17,16 +28,19 @@ h3 {
 .navbar-fixed-bottom {
   height: 50px;
   text-align: center;
+  background-color: #666666;
+  border-top: 3px solid #00AEA7;
 }
 .text-muted {
   line-height: 50px;
+  color: #fff;
 }
 .section img {
   float:left;
   margin-right: 20px;
 }
 .section p {
-  line-height: 50px;
+  line-height: 42px;
   padding-left: 5px;
 }
 .panel-heading {
@@ -39,10 +53,18 @@ form {
   margin-bottom: 40px;
 }
 .portfolio-img {
-  width: 289px;
+  width: 260px;
   height: 200px;
+  margin: 15px;
 }
-
+.form-control {
+  margin-top: 10px;
+}
+.col-md-push-1 {
+    left: 8.33333333%;
+    margin-bottom: 35px;
+    margin-top: -15px;
+}
 
 
 
@@ -62,38 +84,48 @@ form {
 }
 .basketball {
   position: absolute;
-  width: 279px;
-  margin-top: 132px;
-  margin-left: 5px;
+  width: 250px;
+  margin-top: 160px;
+  margin-left: 20px;
   color: white;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   background-color: #00AEA7;
 }
 .workout {
   position: absolute;
-  margin-left: 314px;
-  width: 279px;
+  margin-left: 315px;
+  width: 250px;
   background-color: #00AEA7;
   color: white;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   background-color: #00AEA7;
   margin-top: 130px;
+  top: 30px;
 }
 .games {
   position: absolute;
-  width: 279px;
+  width: 250px;
   color: white;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   background-color: #00AEA7;
-  margin-top: 330px;
-  margin-left: 5px;
+  margin-top: 390px;
+  margin-left: 20px;
 }
 .beach {
   position: absolute;
-  width: 279px;
+  width: 250px;
   color: white;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   background-color: #00AEA7;
-  margin-top: 330px;
-  margin-left: 314px;
+  margin-top: 390px;
+  margin-left: 315px;
+}
+.rps {
+  position: absolute;
+  width: 250px;
+  letter-spacing: 5px;
+  background-color: #00AEA7;
+  top: 620px;
+  left: 35px;
+  color: white;
 }
